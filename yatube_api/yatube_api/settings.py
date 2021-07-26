@@ -134,3 +134,6 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ]
 }
+
+API_ROOT = 'api/'
+API_V1 = f'{API_ROOT}v1/'
