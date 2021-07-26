@@ -3,8 +3,6 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import include, path
 
-# from settings import API_V1
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path(settings.API_V1, include('api.urls')),
